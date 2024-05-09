@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+#conteiner {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+}
+#break-decrement,
+#break-increment,
+#session-decrement,
+#session-increment,
+#start_stop,
+#reset {
+  background-color: #242424;
+  padding: 3px;
+  margin: 3px;
+}
+#botonesD {
+  display: flex;
+  flex-direction: row;
+}
+#botonesS {
+  display: flex;
+  flex-direction: row;
+}
+#conteinerTimer {
+  border: 3px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+#time-left {
+  margin: 10px;
+}
+#botonesControl {
+  display: flex;
+  justify-content: space-around;
+}
